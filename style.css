@@ -1,0 +1,55 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#container{
+	background-color: lightgray;
+	box-sizing: border-box;
+	margin: 30px
+}
+#container input, #container button{
+	margin: 10px;
+	height: 30px
+}
+
+ul li{
+	border: 1px solid gray;
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px 20px;
+	font-family: arial tahoma, sans-serif;
+	color: white;
+	background-color: gray;
+	width: 400px;
+}
+input{
+	width: 200px;
+}
+button{
+	width: 100px;
+}
+#toggelAll{
+	width: 330px
+}
+#number{
+	width: 50px
+}
+#text{
+	width:124px
+}
+#div-ul{
+	display: block;
+}
+
+.deletButton{
+	float: right;
+}
