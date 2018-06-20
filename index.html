@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<!-- this is the HEAD -->
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!--///////////////////////////////////////-->
+<body>
+
+<div id="container">
+  <div>
+    <input id="addTodoTextInput" type="text" name="todo-input" placeholder="new Todo ...">
+    <button id="add" onclick="handlers.addTodo()">add</button>
+  </div>
+
+  <div>
+    <input id="number" type="number" placeholder="index">
+    <input id="text" type="text" placeholder="new text ...">
+    <button  onclick="handlers.changeTodo()" >change</button>
+  </div>
+  <div>
+    <input id="toggelComplitedInput" type="number" placeholder="complish todo (index)...">
+    <button onclick="handlers.toggelCompleted()">complited</button>
+  </div>
+  <div>
+    <button id="toggelAll" onclick="handlers.toggelAll()">toggel all</button>
+  </div>
+
+
+
+</div>
+ <!-- this is whre the todos will be found -->
+<div div-ul>
+<ul id="ul"></ul>
+</div>
+
+<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
